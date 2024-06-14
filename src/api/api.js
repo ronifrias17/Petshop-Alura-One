@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "https://pet-shop-api-pi.vercel.app/",
+    baseURL: "https://api-proyectos-alura-one.vercel.app/",
 });
 
 export const buscar = async (url, setData) => {
